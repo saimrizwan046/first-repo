@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="inp-container">
+                <input type="text" id="inp-display" readonly>
+            </div>
+            <div class="key-container">
+                <button onclick="inpHandler(7)">7</button>
+                <button onclick="inpHandler(8)">8</button>
+                <button onclick="inpHandler(9)">9</button>
+                <button onclick="inpHandler('+')">+</button>
+            </div>
+            <div class="key-container">
+                <button onclick="inpHandler(4)">4</button>
+                <button onclick="inpHandler(5)">5</button>
+                <button onclick="inpHandler(6)">6</button>
+                <button onclick="inpHandler('-')">-</button>
+            </div>
+            <div class="key-container">
+                <button onclick="inpHandler(1)">1</button>
+                <button onclick="inpHandler(2)">2</button>
+                <button onclick="inpHandler(3)">3</button>
+                <button onclick="inpHandler('*')">*</button>
+            </div>
+            <div class="key-container">
+                <button onclick="inpHandler(0)">0</button>
+                <button onclick="clearAll()">C</button>
+                <button onclick="inpHandler('/')">/</button>
+                <button onclick="calculate()">=</button>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>

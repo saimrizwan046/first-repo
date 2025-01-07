@@ -1,0 +1,31 @@
+.container {
+  box-shadow: 0 0 10px black;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 7px;
+  margin: 40px auto;
+  background-color: orange;
+}
+.inp-container {
+  margin-bottom: 20px;
+}
+.inp-container > input {
+  outline: none;
+}
+.key-container {
+  display: flex;
+}
+.key-container > button {
+  flex: 1;
+  margin: 3px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.key-container > button:hover {
+  transition: 0.3s;
+  transform: scale(1.2);
+}
